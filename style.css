@@ -1,18 +1,22 @@
 nav {
     border-bottom: 2px solid white;
 }
-header {
+.img-bg {
     background-image:url(./Black/Black/media/moon.jpg);
     background-size: cover;
     background-position: center;
 }
-.button-custom-hero {
-    margin-top: 25rem;
+.position-custom {
+    top:85%;
+    left: 50%;
+
+    
 }
-@media screen and(max-width:992px) {
+@media screen and (max-width:992px) {
     .title-custom 
     {
-    color: black;
-    align-items: center;
+     justify-content: flex-start !important;
+     align-items: center;
+     padding-top: 20px;
    }
 }
