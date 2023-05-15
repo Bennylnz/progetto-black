@@ -1,5 +1,9 @@
 nav {
     border-bottom: 2px solid white;
+    
+}
+header{
+    margin-top: 58px !important;
 }
 .img-bg {
     background-image:url(./Black/Black/media/moon.jpg);
@@ -18,5 +22,6 @@ nav {
      justify-content: flex-start !important;
      align-items: center;
      padding-top: 20px;
+     
    }
 }
