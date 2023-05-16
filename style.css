@@ -1,6 +1,13 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
 nav {
     border-bottom: 2px solid white;
     
+}
+
+.text-blue {
+    color: #2B9DF4;
 }
 header{
     margin-top: 58px !important;
@@ -16,23 +23,9 @@ header{
 
     
 }
-@media screen and (max-width:992px) {
-    .title-custom 
-    {
-     justify-content: flex-start !important;
-     align-items: center;
-     padding-top: 20px;
-     
-   }
-}
-
 .border-custom {
-    
     border-bottom: 1px solid  #2b9df4;
-    width: 100%;
-   
-   
-    
+    width: 100%; 
 }
 
 .spazio {
@@ -57,7 +50,38 @@ header{
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-
-
 }
 
+@media screen and (max-width:992px) {
+    .rocket-text {
+        color: #0d3b66 !important;
+        font-weight: bold !important;
+    }
+    .rocket-custom {
+        margin-top: -100px;
+    }
+    .title-custom 
+    {
+     justify-content: flex-start !important;
+     align-items: center;
+     padding-top: 20px;
+   }
+}
+.button {
+    color: #2B9DF4;
+    border: 6px solid #2B9DF4;
+    border-radius:15px;
+    font-size: 20px;
+    font-family: tahoma;
+    letter-spacing:5px;
+    cursor: pointer;
+    font-weight: bold;
+    filter: drop-shadow(0 0 15px #2B9DF4) drop-shadow(0 0 50px #2B9DF4) contrast(1) brightness(1);
+    transition: .5s;
+  }
+  
+  .button:hover {
+    color: black;
+    background-color: #2B9DF4;
+    filter: drop-shadow(0 0 20px #2B9DF4) contrast(2) brightness(2);
+  }
