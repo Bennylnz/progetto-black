@@ -25,3 +25,39 @@ header{
      
    }
 }
+
+.border-custom {
+    
+    border-bottom: 1px solid  #2b9df4;
+    width: 100%;
+   
+   
+    
+}
+
+.spazio {
+    height: 220px;
+}
+
+.h2-custom {
+    color: #2b9df4;
+}
+
+
+
+.border-custom1 {
+    border-bottom: 1px solid #2b9df4;
+
+
+}
+
+
+.rocket-custom {
+    background-image: url(./Black/Black/media/missile-2027068_1280.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+
+
+}
+
